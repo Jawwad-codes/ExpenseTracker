@@ -24,7 +24,8 @@ export const AddTransaction = () => {
     "Other",
   ];
   const dropdownStyles = {
-    color: "white",
+    backgroundColor: "white",
+    color: "Black",
     padding: "10px",
     borderRadius: "5px",
     border: "1px solid gray",
