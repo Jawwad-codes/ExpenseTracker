@@ -18,7 +18,30 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
-
+.CheckButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 350px;
+  margin: 30px auto;
+}
+.Income-btn {
+  padding: 12px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+.Expense-btn {
+  padding: 12px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bolder;
+}
 .container {
   margin: 30px auto;
   width: 350px;
@@ -77,14 +100,22 @@ label {
   margin: 10px 0;
 }
 
-input[type="text"],
 input[type="number"] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
   font-size: 16px;
-  padding: 10px;
+  padding: 12px;
   width: 100%;
+}
+select {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 .btn {
@@ -153,5 +184,11 @@ input[type="number"] {
 @media (max-width: 320px) {
   .container {
     width: 300px;
+  }
+  .CheckButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
 }
